@@ -1,0 +1,120 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+
+<!-- Latest compiled and minified CSS  --> 
+<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library --> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS --> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+ <!-- Latest compiled JavaScript -->
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<form action="vezba4.php" method="post">
+<div style ="background-color:lightgrey"> <!-- za BOJA NA POZADINA -->
+<div class="container-fluid"> <!-- za PONADESNO DA BIDE TEKSTOT // a samo container i na SREDINA -->
+
+<h1> Поднеси податоци за стипендија </h1> <br>
+<p> Име: <input type="text" name="ime" > </input> </p> <!-- ZA text da vneseme -->
+<p> Презиме: <input type="text" name="prezime" value=""> </input> </p>
+<p> Број на индекс : <input type="text" name="index" value=""> </input> </p>
+<br>
+<br>
+
+
+
+
+<BR> <BR>
+<h2> Тип на стипендија </h2> <br>
+<p> <input type="radio" name="tip" value="tipa"/>  Тип А </p>
+<p> <input type="radio" name="tip" value="tipb"/>  Тип B </p>
+<p> <input type="radio" name="tip" value="tipc"/>  Тип C </p>
+<br>
+<br>
+
+<h2> Внесете ги предметите и оценките </h2> <br>
+
+<table>
+<tr>
+    <th> <h5> Предмет </h5> </th> <br>
+    <th> <h5> Оценки </h5> </th>
+</tr>
+
+<tr>
+    <td> <input type="text" name="pr1" value=""/> </td>
+	<td> <input type="number" name="pr11" value="a" min="5" max="10"/> </td>
+</tr>	
+
+<tr>
+    <td> <input type="text" name="pr2" value=""/> </td>
+	<td> <input type="number" name="pr22" value="b" min="5" max="10"/>
+</tr>
+
+<tr>
+    <td> <input type="text" name="pr3" value=""/> </td>
+	<td> <input type="number" name="pr33" value="v" min="5" max="10"/> </td>
+</tr>	
+
+<tr>
+    <td> <input type="text" name="pr4" value=""/> </td>
+	<td> <input type="number" name="pr44" value="g" min="5" max="10"/>
+</tr>
+
+<tr>
+    <td> <input type="text" name="pr5" valu e=""/> </td>
+	<td> <input type="number" name="pr55" value="d" min="5" max="10"/> </td>
+</tr>	
+
+<tr>
+    <td> <input type="text" name="pr6" value=""/> </td>
+	<td> <input type="number" name="pr66" value="gj" min="5" max="10"/>
+</tr>
+
+<tr>
+    <td> <input type="text" name="pr7" value=""/> </td>
+	<td> <input type="number" name="pr77" value="e" min="5" max="10"/> </td>
+</tr>	
+
+<tr>
+    <td> <input type="text" name="pr8" value=""/> </td>
+	<td> <input type="number" name="pr88" value="dz" min="5" max="10"/>
+</tr>
+
+<tr>
+    <td> <input type="text" name="pr9" value=""/> </td>
+	<td> <input type="number" name="pr99" value="z" min="5" max="10"/> </td>
+</tr>	
+
+<tr>
+    <td> <input type="text" name="pr10" value=""/> </td>
+	<td> <input type="number" name="pr1010" value="i" min="5" max="10"/>
+</tr>
+
+</table> <br>
+
+<!---- <h5> Предмет ------------ Оценка <br> </h5> <br>
+<input type="text" name="pr6" value=""/>  <input type="number" name="pr6" value="" min="5" max="10" /> <br> 
+<input type="text" name="pr6" value=""/>  <input type="number" name="pr6" value="" min="5" max="10" /> <br> 
+<input type="text" name="pr6" value=""/>  <input type="number" name="pr6" value="" min="5" max="10" /> <br>
+<input type="text" name="pr6" value=""/>  <input type="number" name="pr6" value="" min="5" max="10" /> <br>
+<input type="text" name="pr6" value=""/>  <input type="number" name="pr6" value="" min="5" max="10" /> <br> 
+<input type="text" name="pr6" value=""/>  <input type="number" name="pr6" value="" min="5" max="10" /> <br>
+<input type="text" name="pr6" value=""/>  <input type="number" name="pr6" value="" min="5" max="10" /> <br>
+<input type="text" name="pr6" value=""/>  <input type="number" name="pr6" value="" min="5" max="10" /> <br>
+<input type="text" name="pr6" value=""/>  <input type="number" name="pr6" value="" min="5" max="10" /> <br>
+<input type="text" name="pr6" value=""/>  <input type="number" name="pr6" value="" min="5" max="10" /> <br> <br>  MOZE I VAKA -->
+
+
+<input type="submit" name="sub" value="Поднеси"> </input> <br> <br>
+
+</div>
+</div>
+</form>
+</body>
+</html>
